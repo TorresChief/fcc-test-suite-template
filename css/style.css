@@ -1,8 +1,10 @@
 
-@media only screen and (max-width: 5000px) {
+@media only screen and (max-width: 500px) {
   body {
       margin: 8px;
+      background-color: blue;
   }
+  
   nav ul {
       text-align: center;
   }
@@ -11,9 +13,21 @@
   }
 }
 
+@media only screen and (min-width: 400px) {
+  #welcome-section {
+      margin: 8px;
+      background-color: green;
+  }
+}
+
 #welcome-section {
     margin: 20px;
     height: 100vh;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
 }
 
 
@@ -56,19 +70,19 @@ nav ul {
     width: 100%;
     background-color: #e0ebe8;
   }
-  
+
   nav ul li {
     display: inline-block;
     margin: 55px;
     margin-bottom: 15px;
     margin-top: 25px;
   }
-  
+
   nav ul li a {
     color: #008080;
     text-decoration: none;
   }
-  
+
   nav ul li a:hover {
     color: green;
   }
